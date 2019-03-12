@@ -1,0 +1,57 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+.row {
+  margin-top: 3em;
+}
+.controls-wrapper {
+  position: relative;
+}
+.controls {
+  position: absolute;
+  right: -1%;
+  top: 37%;
+  bottom: 8%;
+}
+.tv {
+  background-image: url(../img/tv.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 865px;
+  height: 720px;
+  margin: auto;
+  position: relative;
+}
+.screen {
+  box-sizing: content-box;
+  position: absolute;
+  border: 10px solid #191919;
+  width: 84%;
+  top: 34%;
+  left: 6%;
+}
+select,
+input {
+  width: 10em;
+  border-radius: 25px;
+  border: none;
+}
+button,
+input {
+  margin: 2px;
+}
+.gif-btn {
+  background-color: #eee;
+  border-radius: 25px;
+  border: none;
+  width: 45%;
+  height: 30px;  
+}
+.gif {
+  flex-grow: 1;
+  width: 33%;
+}
+
+

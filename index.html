@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>GifTastic</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- <h1>TV Through The Ages</h1> -->
+
+      <div class="col-10">
+        <div class="row tv">
+
+          <div class="col-10">
+            <div id="gif-view" class="screen d-flex flex-wrap"></div>
+          </div>
+
+          <div class="col-3 controls d-flex flex-column">
+
+            <div class="mb-3">
+              <form action="">
+                <select id="time-period-select" name="time-period"></select>
+              </form>
+            </div>
+
+            <div id="btn-view" class="mb-3"></div>
+
+            <div class="add-btn mb-3">
+              <form id="gif-form" action="">
+                <input id="gif-input" type="text">
+                <br>
+                <input id="add-gif" type="submit" value="Add New Genre">
+              </form>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
