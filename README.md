@@ -8,6 +8,6 @@ This is an API call exercise that uses gifs and a classic TV theme to demonstrat
 
 * Add your own genre in the input by clicking the button
 
-[Beginning Image](img/gif-app-img-empty.png)
+[Beginning Image](assets/img/gif-app-img-empty.png)
 
-[After Genre is Selected](img/gif-app-img-populated.png)
+[After Genre is Selected](assets/img/gif-app-img-populated.png)
