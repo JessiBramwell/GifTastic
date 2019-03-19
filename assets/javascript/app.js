@@ -7,7 +7,6 @@ function displayGif() {
   var btnValue = $(this).attr("data-genre");
   var optValue = $("#time-period-select").val()
   var queryURL = `https://api.giphy.com/v1/gifs/search?api_key=${APIkey}&q=${optValue}-${btnValue}&limit=25&offset=0&rating=G&lang=en`
-  // unsure if hyphen will work
   //  ajax call
   $.ajax({
     url: queryURL,
@@ -23,7 +22,7 @@ function displayGif() {
 
       var gif = $("<img class='gif'>").attr("src", stillURL).attr("data-still", stillURL).attr("data-animate", animateURL).attr("data-state", "still");
       var rating = result[i].rating;
-      // var ratingDiv = $("<p class='rating'>").text(rating);
+
       gif.appendTo($("#gif-view"));
     }
   });
@@ -77,5 +76,3 @@ $("#add-gif").on("click", function (e) {
 
 renderBtns();
 renderOptions();
-
-// add buttons with user input
